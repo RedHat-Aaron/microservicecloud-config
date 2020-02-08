@@ -23,7 +23,7 @@ eureka:
 server:
   port: 7001 #注册中心占用7001端口
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: microservicecloud-config-eureka-client
 
