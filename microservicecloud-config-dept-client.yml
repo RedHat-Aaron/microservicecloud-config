@@ -23,9 +23,8 @@ spring:
       max-wait-millis: 200
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.athena.springcloud.entities
-  mapper-locations: 
-  - classpath: mybatis/mapper/**/*.xml
+  type-aliases-package: com.athena.springcloud.entity
+  mapper-locations: classpath: mybatis/mapper/**/*.xml
 
 eureka:
   client:
@@ -56,9 +55,8 @@ spring:
       max-wait-millis: 200
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.athena.springcloud.entities
-  mapper-locations: 
-  - classpath: mybatis/mapper/**/*.xml
+  type-aliases-package: com.athena.springcloud.entity
+  mapper-locations: classpath: mybatis/mapper/**/*.xml
 
 eureka:
   client:
